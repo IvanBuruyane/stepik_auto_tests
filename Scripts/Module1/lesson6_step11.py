@@ -14,7 +14,7 @@ try:
     email=browser.find_element_by_css_selector("[placeholder='Input your email']")
     email.send_keys("email")
     phone=browser.find_element_by_css_selector("[placeholder='Input your phone:']")
-    phone.send_keys("+380950347327")
+    phone.send_keys("+32342342342")
     adress=browser.find_element_by_css_selector("[placeholder='Input your address:']")
     phone.send_keys("adress")
     
